@@ -5,6 +5,7 @@ CREATE COMPUTE MODULE Demo_MF_Compute
 	BEGIN
 		-- CALL CopyMessageHeaders();
 		CALL CopyEntireMessage();
+		--
 		RETURN TRUE;
 	END;
 
